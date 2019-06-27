@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Event/etc/events.xsd">
+	<event name="controller_action_predispatch_customer_account_createpost">
+		<observer instance="Wemessage\AntiSpam\Observer\Frontend\Controller\ActionPredispatchCustomerAccountCreatepost" name="wemessage_antispam_observer_frontend_controller_actionpredispatchcustomeraccountcreatepost_controller_action_predispatch_customer_account_createpost"/>
+	</event>
+</config>

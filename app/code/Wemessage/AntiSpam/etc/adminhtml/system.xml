@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+	<system>
+		<tab id="wemessage" sortOrder="999" translate="label">
+			<label>Wemessage</label>
+		</tab>
+		<section id="spam" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="10" translate="label">
+			<label>Prevent spam registrations</label>
+			<tab>wemessage</tab>
+			<resource>Wemessage_AntiSpam::config_wemessage_antispam</resource>
+			<group id="options" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="10" translate="label">
+				<label>Settings</label>
+				<field id="stop_cyrillic" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="10" translate="label" type="select">
+					<label>Deny registration for Cyrillic alphabet</label>
+					<comment/>
+					<source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+				</field>
+				<field id="limit_firstname" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="10" translate="label" type="text">
+					<label>Deny registration if firstname is longer than x characters</label>
+					<comment/>
+				</field>
+				<field id="limit_lastname" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="10" translate="label" type="text">
+					<label>Deny registration if lastname is longer than x characters</label>
+					<comment/>
+				</field>
+				<field id="redirect_page" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="10" translate="label" type="text">
+					<label>Redirect to page if registration fails</label>
+					<comment/>
+				</field>
+			</group>
+		</section>
+	</system>
+</config>

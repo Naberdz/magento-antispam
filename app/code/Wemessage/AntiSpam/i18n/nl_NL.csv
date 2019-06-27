@@ -1,0 +1,7 @@
+Wemessage,Wemessage
+"Prevent spam registrations","Voorkom spam-registraties"
+Settings,instellingen
+"Deny registration for Cyrillic alphabet","Registratie voor Cyrillisch alfabet weigeren"
+"Deny registration if firstname is longer than x characters","Weigeren registratie als voornaam groter is dan x karakters"
+"Deny registration if lastname is longer than x characters","Weigeren registratie als achternaam groter is dan x karakters"
+"Redirect to page if registration fails","Doorverwijzen naar pagina als registratie mislukt"

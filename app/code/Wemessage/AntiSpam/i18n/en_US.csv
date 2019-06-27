@@ -1,0 +1,7 @@
+Wemessage,Wemessage
+"Prevent spam registrations","Prevent spam registrations"
+Settings,Settings
+"Deny registration for Cyrillic alphabet","Deny registration for Cyrillic alphabet"
+"Deny registration if firstname is longer than x characters","Deny registration if firstname is longer than x characters"
+"Deny registration if lastname is longer than x characters","Deny registration if lastname is longer than x characters"
+"Redirect to page if registration fails","Redirect to page if registration fails"
