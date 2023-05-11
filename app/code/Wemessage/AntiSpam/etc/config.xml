@@ -4,6 +4,8 @@
 		<spam>
 			<options>
 				<stop_cyrillic/>
+				<stop_han/>
+				<stop_arabic/>
 				<limit_firstname>255</limit_firstname>
 				<limit_lastname>255</limit_lastname>
 				<redirect_page>/stopspam/index/forbidden</redirect_page>
